@@ -207,7 +207,7 @@ type ProcessingViewController(user: User) as this=
             tvc.AddImage( UIImage.FromFile imagePath ) |> ignore
 
         tvc.AddUrl (NSUrl.FromString("http://xamarin.com/sharp-shirt")) |> ignore
-        tvc.SetInitialText("I just built a native iOS app with C# using #Xamarin and all I got was this free C# t-shirt!") |> ignore
+        tvc.SetInitialText("I just built a native iOS app with F# using #Xamarin and all I got was this free F# t-shirt!") |> ignore
         this.PresentViewController(tvc, true,null) }
 
     let showSuccess() =
